@@ -75,3 +75,7 @@ Follow this guide --> https://docs.microsoft.com/en-us/windows/wsl/install-win10
 			
 		- 3. Run script 
 			python3 script.py
+
+
+#NOTE
+> This is just a tutorial on how I did it, I do not own any of this code
