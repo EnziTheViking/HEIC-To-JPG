@@ -19,9 +19,9 @@
 >
 
 
-# Discription
+# Descripton
 > You have to use Linux or Mac, there is a workaround using WSL on a windows computer allowing
-you to use a Linux environment in windows. I don't know why pyheif won't work on windows but this is the best way for Window users at this time, without installing  other programs. 
+you to use a Linux environment in windows. I don't know why pyheif won't work on windows but this is the best way for Windows users at this time, without installing other programs. 
 
 
 # STEP ONE
@@ -30,7 +30,7 @@ Follow this guide --> https://docs.microsoft.com/en-us/windows/wsl/install-win10
 >
     Or follow here
     
-		1. Open PowerShell as Adminstrator
+		1. Open PowerShell as Administrator
 		
 		2. Enable the Windows Subsystem for Linux 
 		
