@@ -78,5 +78,5 @@ Follow this guide --> https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 
 #NOTE
-> This is just a all in one place tutorial, I am not the original writer of the script.
+> This is just an all in one place tutorial, I am not the original writer of the python script.
 
