@@ -19,7 +19,7 @@
 >
 
 
-# Descripton
+# Description
 > You have to use Linux or Mac, there is a workaround using WSL on a windows computer allowing
 you to use a Linux environment in windows. I don't know why pyheif won't work on windows but this is the best way for Windows users at this time, without installing other programs. 
 
