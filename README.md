@@ -5,11 +5,30 @@
 >### Git Hub:
 >https://github.com/carsales/pyheif
 
+>### Update: (Original Link to get the script does not work, including the script bellow)
+>Script "WAS" from: "py4u.net/discuss/183992"
+```python
+import whatimage
+import pyheif
+from PIL import Image
+import os
 
->### Script from:
->https://www.py4u.net/discuss/183992
+def decodeImage(bytesIo, index):
+    with open(bytesIo, 'rb') as f:
+        data = f.read()
+        fmt = whatimage.identify_image(data)
+    if fmt in ['heic', 'avif']:
+        i = pyheif.read_heif(data)
+        pi = Image.frombytes(mode=i.mode, size=i.size, data=i.data)
+        pi.save("new" + str(index) + ".jpg", format="jpeg")
 
+# For my use I had my python file inside the same folder as the heic files
+source = "./"
 
+for index,file in enumerate(os.listdir(source)):
+    decodeImage(file, index)
+
+```
 >### More info:
 >https://pypi.org/project/pyheif-pillow-opener/
 
