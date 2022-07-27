@@ -76,7 +76,9 @@ Follow this guide --> https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	3. We will need to install the necessary libraries
 		- 1. Check what python package we have installed (in Linux) Needs to be 3.6.x to 3.8.x
 			python3 --version
-			
+		- If step 2 doesn't work, try A & B
+			A. "sudo apt-get update"
+			B. "sudo apt-get install python3.6"
 		- 2. apt install python3-pip
 		
 		- 3. pip install whatimage
